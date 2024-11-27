@@ -1,3 +1,7 @@
+<script>
+	import Button from "./Button.svelte";
+
+</script>
 <section class="hero">
 	<div class="hero-showcase text-center bold">
 		<h1 class="purple">MOVE TO</h1>
@@ -13,13 +17,14 @@
 		<h1>THIS BOOK WILL</h1>
 		<h1>SAVE YOUR MONEY</h1>
 		<h1 class="mb-s">TIME & NERVES</h1>
-		<p class="light-grey">
+		<p class="light-grey mb-s">
 			I moved to Spain seven years ago. The process was painful and
 			difficult. I learned most things the hard way: finding a job,
 			getting a visa, calculating my cost of living, choosing an
 			apartment. That's why I wrote this e-book, to tell you how I did it.
 			No bullshit, no stress.
 		</p>
+    <Button>Purchase E-book for $10</Button>
 	</div>
 </section>
 
