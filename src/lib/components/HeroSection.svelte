@@ -1,10 +1,12 @@
 <section class="hero">
 	<div class="hero-showcase text-center bold">
-		<h1 class="purple">MOVE TO</h1>
-		<h1 class="purple mb-s">SPAIN</h1>
-		<h4 class="italic semi-bold">
-			There's no need to make the same mistakes I made.
-		</h4>
+    <header>
+      <h1 class="purple">MOVE TO</h1>
+      <h1 class="purple mb-s">SPAIN</h1>
+      <h4 class="italic semi-bold">
+        There's no need to make the same mistakes I made.
+      </h4>
+    </header>
     <img src="phone_cover.png" alt="" class="phone-cover">
 		<img src="book_cover.png" alt="" class="book-cover" />
 	</div>
@@ -33,7 +35,7 @@
   .hero-showcase {
     position: relative;
     width: 50%;
-    padding: 100px 16px 0 16px;
+    padding: 100px 0;
     background: linear-gradient(
       135deg,
       #e2cbff,
@@ -62,7 +64,7 @@
     position: absolute;
     width: 25%;
     bottom: 0;
-    right: 50%;
+    right: 55%;
     transform: translateY(12%);
   }
 </style>
