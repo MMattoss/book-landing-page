@@ -78,6 +78,7 @@
 	</div>
 </section>
 
+
 <style>
 	.chapter-preview {
 		padding: 50px 100px;
